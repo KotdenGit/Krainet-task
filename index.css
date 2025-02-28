@@ -28,6 +28,23 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+input,
+button,
+textarea {
+  font-family: "Poppins", sans-serif;
+  font-size: inherit;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+  background-color: inherit;
+}
+
+a {
+  color: inherit;
+}
+
 .menu__body {
     background-color: #ffa501;
     position: fixed;
